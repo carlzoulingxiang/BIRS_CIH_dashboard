@@ -1,9 +1,11 @@
 # BIRS_CIH_dashboard
  
+ 
+## Description
  -  Dashboard for hackthon, use flask as restful api, dash as server, and altair\plotly\D3 as visulization tool
 
 
-# Installation
+## Installation
 I recommend installing pandas, since you will most likely use them.
 
     $ pip install pandas
