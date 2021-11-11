@@ -11,6 +11,7 @@
  -  Use pip to install all requirement, if you don't have pip. Use commands:
 
     $ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+    
     $ python3 get-pip.py
     
  -  Use requirements.txt install all the mandatory packages.
