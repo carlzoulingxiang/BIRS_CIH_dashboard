@@ -117,11 +117,11 @@ def plot_simple_altair_bubblechart(title):
 
 def plot_plotly_cypto(title):
     
-    with open('./../Dash-cytoscape-networks/Canadian-universities/computersci-data.json', 'r') as f:
+    with open('./assets/computersci-data.json', 'r') as f:
         elements = json.loads(f.read())
 
     # Load stylesheet
-    with open('./../Dash-cytoscape-networks/Canadian-universities/computersci-style.json', 'r') as f:
+    with open('./assets/computersci-style.json', 'r') as f:
         stylesheet = json.loads(f.read())
     
     fig = cyto.Cytoscape(
