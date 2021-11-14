@@ -7,6 +7,7 @@
 
  -  Vedio link:  https://youtu.be/Wmk_cZgK5Vs
 
+ -  See report.ipynb, there is our detail analysis.
 
 ## Installation
 
