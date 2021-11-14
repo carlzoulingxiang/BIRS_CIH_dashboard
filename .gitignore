@@ -132,4 +132,5 @@ dmypy.json
 get-pip.py
 
 # Notebook
-# *.ipynb
+test.ipynb
+data.ipynb
