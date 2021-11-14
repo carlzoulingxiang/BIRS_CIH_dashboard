@@ -5,6 +5,8 @@
 
  -  Dashboard for hackthon, use flask as restful api, dash as server, and altair\plotly\D3 as visulization tool
 
+ -  Vedio link:  https://youtu.be/Wmk_cZgK5Vs
+
 
 ## Installation
 
