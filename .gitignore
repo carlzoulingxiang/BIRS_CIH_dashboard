@@ -130,3 +130,6 @@ dmypy.json
 
 # pip
 get-pip.py
+
+# Notebook
+*.ipynb

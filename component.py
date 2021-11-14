@@ -30,13 +30,11 @@ sidebar = html.Div(
         html.H1("Tratadores", className="display-1", style={'font-size':'25px', 'textAlign':'center'}),
         html.Hr(),
         html.P(
-            "We can add some note here...", className="lead"
+            "In Data Science We Trust", className="lead"
         ),
         dbc.Nav(
             [
-                dbc.NavLink("Page0", href="/", active="exact"),  ##exact mean when url is equal to href, then it is active
-                dbc.NavLink("Page1", href="/page-1", active="exact"),
-                dbc.NavLink("Page2", href="/page-2", active="exact"),
+                dbc.NavLink("Page1", href="/", active="exact"),  ##exact mean when url is equal to href, then it is active
             ],
             vertical=True,
             pills=True,
@@ -47,7 +45,7 @@ sidebar = html.Div(
 
 
 
-def gen_basic_unit(_id, _type, style={'height':'30vh', 'overflow-x': 'scroll'}):
+def gen_basic_unit(_id, _type, style={'height':'30vh', 'overflow-x': 'scroll'},  width=5):
     
     if _type == "altair":
         
@@ -57,7 +55,7 @@ def gen_basic_unit(_id, _type, style={'height':'30vh', 'overflow-x': 'scroll'}):
                         dbc.CardHeader(id="h"+_id, style={'font-size':'15px', 'textAlign':'left'}),
                         dbc.CardBody(dav.VegaLite(id="f"+_id)),
                     ], style=style)
-                ], width=5)
+                ], width=width)
         
     elif _type == "plotly":
         
@@ -67,7 +65,7 @@ def gen_basic_unit(_id, _type, style={'height':'30vh', 'overflow-x': 'scroll'}):
                         dbc.CardHeader(id="h"+_id, style={'font-size':'15px', 'textAlign':'left'}),
                         dbc.CardBody(dcc.Graph(id="f"+_id)),
                     ], style=style)
-                ], width=5)
+                ], width=width)
         
     elif _type == "cytospace":
         
@@ -77,7 +75,7 @@ def gen_basic_unit(_id, _type, style={'height':'30vh', 'overflow-x': 'scroll'}):
                         dbc.CardHeader(id="h"+_id, style={'font-size':'15px', 'textAlign':'left'}),
                         dbc.CardBody(html.Div(id="f"+_id)),
                     ], style=style)
-                ], width=5)
+                ], width=width)
         
 
 
