@@ -30,3 +30,5 @@
  -  Go to Explorer to see the dashborad.
 
     $ http://localhost:8050/ 
+
+![dashboard](https://github.com/PANDASANG1231/BIRS_CIH_dashboard/blob/main/output/overview.jpg)
