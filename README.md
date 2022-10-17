@@ -32,3 +32,6 @@
     $ http://localhost:8050/ 
 
 ![dashboard](https://github.com/PANDASANG1231/BIRS_CIH_dashboard/blob/main/output/overview.jpg)
+
+- Dashboard in Tableau by Carl
+    $ https://public.tableau.com/app/profile/ling.xiang.zou/viz/Section6_16488504543450/No_ofbills?publish=yes
